@@ -2,5 +2,5 @@ Feature: Web pages
 
   Scenario: Endless
     Given I am on "endless.html"
-    Then I should see "As the world turns round and round"
+    Then I should see "Can you bring me sunrise, can you bring me the sunrise"
     
