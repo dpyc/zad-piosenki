@@ -111,6 +111,13 @@ class DefaultController extends Controller
     {
         return $this->render('default/emely.html.twig');
     }
+    /**
+     * @Route("/ella.html", name="Ella")
+     */
+    public function ellaAction()
+    {
+        return $this->render('default/ella.html.twig');
+    }
     /*
      * F
      */
